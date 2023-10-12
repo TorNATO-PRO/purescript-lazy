@@ -5,7 +5,7 @@
           force
   )
 
-  (import (only (rnrs base) define lambda))
+  (import (only (rnrs base) define lambda quote))
 
   (define defer
     (lambda (thunk)
