@@ -6,11 +6,11 @@ Notable changes to this project are documented in this file. The format is based
 
 Breaking changes:
 
-New features: Scheme support
+New features:
 
 Bugfixes:
 
-Other improvements: A unit test
+Other improvements:
 
 ## [v6.0.0](https://github.com/purescript/purescript-lazy/releases/tag/v6.0.0) - 2022-04-27
 

@@ -5,15 +5,14 @@
           force
   )
 
-  (import (only (rnrs base) define lambda))
+  (import (only (rnrs base) define lambda)
+  (prefix (purs runtime lib) rt:))
 
   (define defer
     (lambda (thunk)
       (lambda ()
-        (thunk 0))) ;; arbitrarily pass in 0, it doesn't matter!
-  )
+        (thunk 0))))
 
   (define force
-    (lambda (thunk) (thunk))
-  )
+    (lambda (thunk) (thunk)))
 )
